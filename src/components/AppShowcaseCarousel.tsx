@@ -99,23 +99,23 @@ export function AppShowcaseCarousel({ images }: AppShowcaseCarouselProps) {
 
   return (
     <>
-      <div className="relative group w-full">
+      <div className="relative group w-screen ml-[calc(50%-50vw)]">
         <button
           onClick={scrollPrev}
-          className="cursor-pointer hidden md:flex absolute left-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-white/90 backdrop-blur-sm rounded-full items-center justify-center shadow-lg hover:bg-white transition-all opacity-0 group-hover:opacity-100 translate-x-4 group-hover:translate-x-0"
+          className="cursor-pointer hidden md:flex absolute left-8 top-1/2 -translate-y-1/2 z-20 w-14 h-14 bg-white/90 backdrop-blur-sm rounded-full items-center justify-center shadow-lg hover:bg-white transition-all opacity-0 group-hover:opacity-100 translate-x-4 group-hover:translate-x-0"
           aria-label="Scroll left"
         >
-          <ChevronLeft className="w-6 h-6 text-black" />
+          <ChevronLeft className="w-8 h-8 text-black" />
         </button>
 
         {/* Embla Viewport */}
         <div className="overflow-hidden w-full" ref={mainEmblaRef}>
           {/* Embla Container */}
-          <div className="flex touch-pan-y"> 
+          <div className="flex touch-pan-y pl-6 md:pl-[max(4rem,calc(50vw-720px+4rem))]"> 
             {images.map((src, index) => (
-              <div key={index} className="flex-[0_0_auto] pr-4 md:pr-6 min-w-0">
+              <div key={index} className="flex-[0_0_auto] pr-6 min-w-0">
                 <div 
-                  className="relative w-[240px] md:w-[280px] aspect-[375/812] rounded-[24px] overflow-hidden group/image cursor-pointer border border-black/5"
+                  className="relative w-[240px] md:w-[280px] aspect-[280/606] rounded-[24px] overflow-hidden group/image cursor-pointer border border-black/5"
                   onClick={() => setLightboxIndex(index)}
                 >
                   <img
@@ -123,18 +123,22 @@ export function AppShowcaseCarousel({ images }: AppShowcaseCarouselProps) {
                     alt={`Slide ${index + 1}`}
                     className="w-full h-full object-cover"
                   />
+                  {/* Overlay for hover effect optional, but design doesn't specify it */}
+                  <div className="absolute inset-0 bg-black/0 group-hover/image:bg-black/5 transition-colors" />
                 </div>
               </div>
             ))}
+            {/* Right padding to balance the scroll view */}
+            <div className="flex-[0_0_auto] w-6 md:w-[max(4rem,calc(50vw-720px+4rem))]" />
           </div>
         </div>
 
         <button
           onClick={scrollNext}
-          className="cursor-pointer hidden md:flex absolute right-8 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-white/90 backdrop-blur-sm rounded-full items-center justify-center shadow-lg hover:bg-white transition-all opacity-0 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0"
+          className="cursor-pointer hidden md:flex absolute right-8 top-1/2 -translate-y-1/2 z-20 w-14 h-14 bg-white/90 backdrop-blur-sm rounded-full items-center justify-center shadow-lg hover:bg-white transition-all opacity-0 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0"
           aria-label="Scroll right"
         >
-          <ChevronRight className="w-6 h-6 text-black" />
+          <ChevronRight className="w-8 h-8 text-black" />
         </button>
       </div>
 
@@ -145,7 +149,7 @@ export function AppShowcaseCarousel({ images }: AppShowcaseCarouselProps) {
         >
           {/* Close Button */}
           <button 
-            className="absolute top-4 right-4 text-white/70 hover:text-white p-2 transition-colors cursor-pointer z-[110] bg-black/60 hover:bg-black/80 backdrop-blur-md rounded-full"
+            className="absolute top-4 right-4 text-white/70 hover:text-white p-2 transition-colors cursor-pointer z-[110] bg-black/40 hover:bg-black/60 backdrop-blur-md rounded-full"
             onClick={() => setLightboxIndex(null)}
             aria-label="Close"
           >
@@ -196,7 +200,7 @@ export function AppShowcaseCarousel({ images }: AppShowcaseCarouselProps) {
           </div>
 
           {/* Bottom Controls */}
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-6 z-[110] text-white/70 bg-black/60 backdrop-blur-md rounded-full px-8 py-3">
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-6 z-[110] text-white/70 bg-black/40 backdrop-blur-md rounded-full px-8 py-3">
             {!isZoomed && (
               <button
                 className="hover:text-white transition-colors cursor-pointer hidden md:block p-2"

@@ -111,7 +111,7 @@ export function CaseStudy3() {
   ];
 
   return (
-    <div className="min-h-screen bg-white font-sans text-black">
+    <div className="min-h-screen bg-white font-sans text-black overflow-x-hidden">
       <div className="max-w-[1440px] mx-auto w-full px-6 md:px-16 pt-20 md:pt-[120px] pb-20">
         
         {/* Header */}
