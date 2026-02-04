@@ -27,14 +27,14 @@ export function HomePage() {
           </div>
 
           {/* Content Row */}
-          <div className="flex flex-col md:flex-row gap-[24px] items-start relative shrink-0 w-full mt-0">
+          <div className="flex flex-col md:flex-row gap-[16px] items-start relative shrink-0 w-full mt-0">
             {/* Left: Blue Text */}
             <p className="flex-1 font-medium leading-none text-[#3d8bff] text-[20px] md:text-[52px] tracking-normal md:tracking-[-1.13px]">
               Люблю мобилки, нагруженные интерфейсы и собирать компоненты
             </p>
 
             {/* Right: Bio & Links */}
-            <div className="flex flex-col flex-1 gap-[24px] justify-between h-full min-w-0 w-full">
+            <div className="flex flex-col flex-1 gap-[32px] justify-between h-full min-w-0 w-full">
               <div className="font-medium leading-[1.32] md:leading-[1.48] text-[16px] md:text-[20px] text-black w-full">
                 <p className="mb-0">Сочетаю продуктовый, аналитический и креативный подход.</p>
                 <p>В работе учитываю потребности и боли пользователей, бизнес-цели и технические ограничения.</p>
