@@ -3,14 +3,14 @@ import { ImageCarousel } from './ImageCarousel';
 
 export function CaseStudy2() {
   const carouselImages = [
-    "/src/images/proxy/1.png",
-    "/src/images/proxy/2.png",
-    "/src/images/proxy/3.png",
-    "/src/images/proxy/4.png",
-    "/src/images/proxy/5.png",
-    "/src/images/proxy/6.png",
-    "/src/images/proxy/7.png",
-    "/src/images/proxy/8.png",
+    "https://psv4.userapi.com/s/v1/d2/VcBmA3HioElEKhymid1XQziFN-Vrb7ZfSv3n2MSWSbLZhnlGI-1aDGhYsY1Cxvr_RO2kOA7lLo1vArOnm7yWroMScfoScwvjPT-RaEQ3O6IRGPnNGxGmyoUc0mjQs3RfQbJAVb39kkNU/1.png",
+    "https://psv4.userapi.com/s/v1/d2/6q4AbTN81wZDmMG_ljCUZSYyd-ztmwDIRZ5DviDOI0wCuyxxH5M3AtnPJ6ksy5BEsfXm-R1L3xns3hXVt6qiZqiKcMAKF6K6LnYPug7wW6KicdYcBwAkTFkcg1k3jxHq4nq19RfKn0ET/2.png",
+    "https://psv4.userapi.com/s/v1/d2/uA9LY-P09rLPYoP7Ds41738HI9CTY__nrtlC4slKJqPk2f0DxLJDttSaTXfH2l4xcgNjGDwNWhCJ4wvj3-LGo-pCTPdg_cF7FrYgXoyg2FyHMhUZszOYm2h9OsPLKlMbWtE0QH0JUFvg/3.png",
+    "https://psv4.userapi.com/s/v1/d2/SVWzrmPL73Ajy3ZkIfExD1MFFXShkdRk2eO7nvwVAXljUczHvtR2s6d16JSEMSmeku_xCWbrQkkqguycfZEQEKXrjAcejfX9FHychrg5F3-vxfVHuW5uRDbmsVavNTX6JaRQEIJbCN-p/4.png",
+    "https://psv4.userapi.com/s/v1/d2/sM7wk61D1MUuWmlAgHnRdpfN20xA_n2gB2ISHy7MX51Ii4ru2wDfM6F9M0U9vt8h8niZSWmoUbECD7sHw95iWonrsrngrQOzAVSZRO5Oq6aYwALrmam9PJ0d4rwLLtM4klOxzFtGErst/5.png",
+    "https://psv4.userapi.com/s/v1/d2/JZTvlC1B7ar51qvMFu6_INj4uH6YvmQIf396VjRkikIXEslBOUiXrlsTr0N_p1XCrZoOxGeZRyMZ4sCNfP_aSrsoCs5z-w-1NZkpP4DYAE80B0OO1WeZ6plB-v23gUn8mU0SCd7_998E/6.png",
+    "https://psv4.userapi.com/s/v1/d2/_fVHXyUcq_scA8HghZ5Vun5zoLQ8CbAyrv-NtrfABuM3HZnP5x8lCVHLtGmSYyqKBdkyihu2rPP8Dh4ZpWUPNkU_jO0Jm3SNEc4v4gNt9eK6KGw2PFWGz0FRTEzmcTsjewYesWb7fPGt/7.png",
+    "https://psv4.userapi.com/s/v1/d2/01tjIbnRtAzB_eqrsnzcY5048_JemQYBmsuioRE94_iy-TlYZQvMZoGCoK-qmcAhjlNO0kiJZpUqoWI_ACzIyGClLCc1WR91ks4u1_3PKBq6P6GU9wcPVHgUnpTra3HvrsdXw2NmZV5c/8.png",
   ];
 
   return (

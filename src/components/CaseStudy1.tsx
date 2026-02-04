@@ -1,18 +1,19 @@
 import React from 'react';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 import { ImageCarousel } from './ImageCarousel';
 
 export function CaseStudy1() {
   const carouselImages = [
-    "src/images/brave/1.png",
-    "src/images/brave/2.png",
-    "src/images/brave/3.png",
-    "src/images/brave/4.png",
-    "src/images/brave/5.png",
-    "src/images/brave/6.png",
-    "src/images/brave/7.png",
-    "src/images/brave/8.png",
-    "src/images/brave/9.png",
-    "src/images/brave/10.png",
+    "https://psv4.userapi.com/s/v1/d2/elvJ7XYM5aH72ZTWvKb9C-O4RX0BS7GlHtvSSlHvY9HUyJBY5V8qKLGFB8hH9KMd-EN69hFCyJE5HAaRb8ODBE8T7yJqWWPEyWsugu9QQ-_wXBUdS9y-Nv74lywo0A7d-ibfMQKYST3-/1.png",
+    "https://psv4.userapi.com/s/v1/d2/aDbKcwRoLDPrqw5uEnB0CwxGVG_8H-7ZK8IyfZoab9f0_qc84Vax4D5kdJsU-b-CvCwArgob-oYCV9_fnkdSP7aYkOc2oAP76Bmm-0_fXn7p6I1yorZ0qblgCLcI0UYyEUv3gAyKIEeX/2.png",
+    "https://psv4.userapi.com/s/v1/d2/d8ZeA2N_310YHXzy--7y9emiFdcP5RwMaQW2uCkCHCqgcEeOG58-5PtPCNwJRiREXezvgIKafl5Ah_eh7gKqyJ_LnYCOUPqNU_l4vp1dfp-8horqmWdYjuQfb1QceoTIuWlCp4hpq1js/3.png",
+    "https://psv4.userapi.com/s/v1/d2/zqoMzA3UcdjN0YzP0nPZiMFaa1uU9QLL33JzkuCrZIBFu02Qju6nXgaKBjlDM5c6PiCeNpIThN3akuGQOUBws-f51WvnORFl6NDt6y7RhQp4MmCKurOyurlBBx4aT2acE81j8hYGNVdc/4.png",
+    "https://psv4.userapi.com/s/v1/d2/aFK8XqGRZChKkmSKbLyOcqh4oezBqWEGy75UvBSsIyobweqcRn3QjnU8x4RguhixvvBFYFnjssWkyNsTE4X42Vh6pN07LRCciI6E8p4y-NZRzB7B8WPtK_3pKlWNeddaBPpzr-ms9J6G/5.png",
+    "https://psv4.userapi.com/s/v1/d2/dcL9RwWgqRW2LUBSbDqCAs2kEiBaMx2i84Ckdj_wQmzQooIwvCbtndwuho0qLOMw64fUM8EZ60hLFBMup1bKX3v1YqXgFSgB4ZT2cDUbr2kH7sn3mwrsB0WhRmRtCscJFs1FBd8zi-5a/6.png",
+    "https://psv4.userapi.com/s/v1/d2/Ytr3kRX8a7-71jz-o7h6eguvZThkR3iMX7Iq9udqueTTF9HhZthG8Gg6aQrf-GCJET33jOlfRcf7Y9pJ-HSWgAhHWQhGlEGyqx0HPVwy_3NakiRjMntAGn9aeUpSmeWmhtDnEXRBy-SW/7.png",
+    "https://psv4.userapi.com/s/v1/d2/ouMgWwa8dlaXBFN9jj3AML4xKMnbxGs77hETtvTdod-35jqAogP9N62MWz_lkLbI7G_4Nu7Cz4u4_EAYZGCAe1pP216zsKODeHAC9P2TPDVx7XFOU9TaBMt3riHwrzTeaLsqYgvPDQY-/8.png",
+    "https://psv4.userapi.com/s/v1/d2/A7X_BA6BW1gOkg9d7ii4cxcrwKPWLVdmaofxDw29UnkklrcXZuqwB3-sIRdr6TrrPrmVEcuQ9xDFvIqKJKKHmL_Fjek38_XUNRe31JBQl73b4MoBbugepdHFCOt39svenUqXx9TanX7n/9.png",
+    "https://psv4.userapi.com/s/v1/d2/mTVPpgqRUMLqeFHUJKXc0vxd7-qLXvQ3xvsgfag0wevvddgEB5QAKsLtLfYFWlGyTKSOK41tnZo0owIASVFXPm7LVtbmkoFubSbojpfHQY_H8C4rLFn74__o4gdbMO5ZV3MUStIPhoZO/10.png",
   ];
 
   return (
