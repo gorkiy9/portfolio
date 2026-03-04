@@ -73,7 +73,7 @@ export function HomePage() {
                 <div className="flex flex-col gap-6 md:gap-[24px] w-full">
                   <div className="h-[240px] md:h-[326px] relative rounded-[16px] w-full overflow-hidden shrink-0">
                     <ImageWithFallback 
-                      src="https://sun9-80.userapi.com/s/v1/ig2/Iqzu7h7aKAp-J9KKeZA4P_mowiA6ZvYNt7kVgobbTa3hCY0QZiL1fK5lvTWTwxCdHQkzqI_baviyfGlWDvZzuZ2H.jpg?quality=95&as=32x18,48x27,72x40,108x61,160x90,240x135,360x202,480x270,540x304,640x360,720x405,1080x607,1280x720,1440x810,2560x1440&from=bu&cs=2560x0"
+                      src="https://sun9-49.userapi.com/s/v1/ig2/u5aP5drTaAu0y7AQdZpmvrjT1VU2-MoTuunf-hE6659AW_N2JhrF2_G9Eg3ryrN7lCvNBiAHg4uIFpx64v6t7FOe.jpg?quality=95&as=32x18,48x27,72x40,108x61,160x90,240x135,360x202,480x270,540x304,640x360,720x405,1080x607,1280x720,1440x810,2560x1440&from=bu&cs=2560x0"
                       alt="ASOCKS"
                       className="absolute inset-0 size-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />

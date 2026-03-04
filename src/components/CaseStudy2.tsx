@@ -3,7 +3,7 @@ import { ImageCarousel } from './ImageCarousel';
 
 export function CaseStudy2() {
   const carouselImages = [
-    "https://psv4.userapi.com/s/v1/d2/VcBmA3HioElEKhymid1XQziFN-Vrb7ZfSv3n2MSWSbLZhnlGI-1aDGhYsY1Cxvr_RO2kOA7lLo1vArOnm7yWroMScfoScwvjPT-RaEQ3O6IRGPnNGxGmyoUc0mjQs3RfQbJAVb39kkNU/1.png",
+    "https://psv4.userapi.com/s/v1/d2/aH43I9h4LE13AOxQF5-KO0nOpDK5DSuC2nz3w0yRtI84g3zYxBoQJbI5L886XhbayAFITZBOw9FkjUtFBMQb1U5EfhMsJ4W4oTM2HEiNHBr0wy9G-MxWcL2iA5yuWudA5Vc0b60aP-1m/1.png",
     "https://psv4.userapi.com/s/v1/d2/6q4AbTN81wZDmMG_ljCUZSYyd-ztmwDIRZ5DviDOI0wCuyxxH5M3AtnPJ6ksy5BEsfXm-R1L3xns3hXVt6qiZqiKcMAKF6K6LnYPug7wW6KicdYcBwAkTFkcg1k3jxHq4nq19RfKn0ET/2.png",
     "https://psv4.userapi.com/s/v1/d2/uA9LY-P09rLPYoP7Ds41738HI9CTY__nrtlC4slKJqPk2f0DxLJDttSaTXfH2l4xcgNjGDwNWhCJ4wvj3-LGo-pCTPdg_cF7FrYgXoyg2FyHMhUZszOYm2h9OsPLKlMbWtE0QH0JUFvg/3.png",
     "https://psv4.userapi.com/s/v1/d2/SVWzrmPL73Ajy3ZkIfExD1MFFXShkdRk2eO7nvwVAXljUczHvtR2s6d16JSEMSmeku_xCWbrQkkqguycfZEQEKXrjAcejfX9FHychrg5F3-vxfVHuW5uRDbmsVavNTX6JaRQEIJbCN-p/4.png",
