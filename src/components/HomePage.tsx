@@ -36,7 +36,7 @@ export function HomePage() {
             {/* Right: Bio & Links */}
             <div className="flex flex-col flex-1 gap-[32px] justify-between h-full min-w-0 w-full">
               <div className="font-medium leading-[1.32] md:leading-[1.48] text-[16px] md:text-[20px] text-black w-full">
-                <p className="mb-0">Сочетаю продуктовый, аналитический и креативный подход.</p>
+                <p className="mb-0">Сочетаю продуктовый и креативный подход.</p>
                 <p>В работе учитываю потребности и боли пользователей, бизнес-цели и технические ограничения.</p>
               </div>
             </div>
